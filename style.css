@@ -68,7 +68,7 @@ main {
 .hero button {
     padding: 8px 20px;
     background-color: #3b82f6;
-    color: white;
+    color: #F9FAF8;
     border: none;
     border-radius: 5px;
 }
@@ -141,4 +141,58 @@ cite {
     padding-left: 400px;
     font-size: 30px;
     font-weight: 900;
+}
+.cta-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    margin: 50px;
+}
+
+.content {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+
+.content, h4 {
+    color: #F9FAF8;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    background: #3882F6;
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 50px;
+    font-size: 20px;
 }
